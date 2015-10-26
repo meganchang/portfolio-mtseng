@@ -7,7 +7,8 @@
     width: 50px;
     height: 50px; }
     .content-main .icon div {
-      text-align: center; }
+      text-align: center;
+      font-family: "Roboto-Regular"; }
   .content-main .icon-stand-in {
     margin: 50px auto 50px auto; }
   .content-main .quote {
@@ -21,3 +22,5 @@
     width: 400px; }
     .content-main .content-main-icons .icon-process {
       text-align: left; }
+    .content-main .content-main-icons .icon-work {
+      text-align: right; }

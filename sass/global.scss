@@ -1,9 +1,17 @@
+@import 'fonts';
+
 h1 {
 	font-size: 80px;
 	margin: 20px 0 20px 0;
+	font-family: "Roboto-Light";
 }
 
 h3 {
 	font-size: 40px;
 	margin: 20px 0 20px 0;
+	font-family: "Roboto-Light";
+}
+
+p {
+	font-family: "Roboto-Regular";
 }
