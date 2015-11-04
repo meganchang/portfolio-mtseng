@@ -1,7 +1,13 @@
 @font-face {
+  font-family: 'Roboto-Thin';
+  src: url("/fonts/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
   font-family: 'Roboto-Light';
   src: url("/fonts/Roboto-Light.ttf") format("truetype");
-  font-weight: 100;
+  font-weight: 300;
   font-style: normal; }
 
 @font-face {
@@ -13,12 +19,12 @@
 h1 {
   font-size: 80px;
   margin: 20px 0 20px 0;
-  font-family: "Roboto-Light"; }
+  font-family: "Roboto-Thin"; }
 
 h3 {
   font-size: 40px;
   margin: 20px 0 20px 0;
-  font-family: "Roboto-Light"; }
+  font-family: "Roboto-Thin"; }
 
 p {
-  font-family: "Roboto-Regular"; }
+  font-family: "Roboto-Thin"; }
