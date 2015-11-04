@@ -1,5 +1,9 @@
 @import 'fonts';
 
+body {
+	margin: 0;
+}
+
 h1 {
 	font-size: 80px;
 	margin: 20px 0 20px 0;
@@ -14,4 +18,40 @@ h3 {
 
 p {
 	font-family: "Roboto-Thin";
+}
+
+
+.navbar {
+	width: 100%;
+	font-family: "Roboto-Thin";
+	border-bottom: 1px solid #A9A9A9;
+	.navbar-site-icon {
+		width: 120px;
+		height: 80px;
+		display: inline-block;
+		float: left;
+		line-height: 80px;
+		text-align: center;
+	}
+	ul {
+		margin: 0;
+		list-style-type: none;
+		padding: 0;
+		li {
+			display: inline-block;
+			position: relative;
+			width: 120px;
+			height: 80px;
+			a {
+				text-decoration: none;
+				color: black;
+				display: block;
+				height: 100%;
+				.navbar-item-text {
+					text-align: center;
+					line-height: 80px;
+				}
+			}
+		}
+	}
 }

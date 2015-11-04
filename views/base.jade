@@ -8,15 +8,19 @@ html(lang="en")
 			link(rel='stylesheet', href='/css/global.css')
 	body
 		div(class="navbar")
-			div(class="navbar-site-icon")
+			a(href="/")
+				div(class="navbar-site-icon")= "[home]"
 			div(class="navbar-items-wrapper")
 				ul(class="navbar-items")
-					li(class="navbar-item")= "Process"
+					li(class="navbar-item")
+						a(href="/process")
+							div(class="navbar-item-text")= "Process"
+					li(class="navbar-item")
+						a(href="/work")
+							div(class="navbar-item-text")= "Work"
+					li(class="navbar-item")
 						a(href="#")
-					li(class="navbar-item")= "Work"
-						a(href="#")
-					li(class="navbar-item")= "Contact"
-						a(href="#")
+							div(class="navbar-item-text")= "Contact"
 
 		block content
 

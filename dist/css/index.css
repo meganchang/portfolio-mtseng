@@ -1,5 +1,6 @@
 .content-main {
-  text-align: center; }
+  text-align: center;
+  padding-top: 75px; }
   .content-main .hr-title {
     width: 40%; }
   .content-main .icon {
@@ -24,6 +25,3 @@
       text-align: left; }
     .content-main .content-main-icons .icon-work {
       text-align: right; }
-
-.navbar ul {
-  list-style-type: none; }
